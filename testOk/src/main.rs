@@ -1,8 +1,12 @@
+fn q() {
+    println!("test");
+}
+
 fn main() {
     println!("Hello, world!");
     println!("tets");
-    println!("test2");
-    
+    println!("test22");
+    q();
 }
 
 
