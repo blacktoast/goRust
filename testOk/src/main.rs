@@ -1,13 +1,13 @@
 
 
 fn main() {
-    let a = [1, 2, 3, 4, 5];
-    let index = 10;
-
-    let element = a[index];
-
-    println!("The value of element is: {}", element);
+   
+    let x=12;
+    another_function(x);
 
 }
 
+fn another_function(x:i32){
+    println!("Another function {}",&x);
+}
 
