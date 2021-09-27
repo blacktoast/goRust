@@ -3,11 +3,18 @@
 fn main() {
    
     let x=12;
-    another_function(x);
+    
+    let y={
+      let a=x+2;
+      a+1
+    };
+    println!("test : {}", y);
 
 }
 
-fn another_function(x:i32){
-    println!("Another function {}",&x);
+fn fibo(x:i32){
+  //let mut first=0;
+  for a in (1..x){
+    println!("{}",a);
+  }
 }
-
